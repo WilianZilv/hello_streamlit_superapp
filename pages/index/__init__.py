@@ -1,0 +1,2 @@
+NAME = "Home"
+ICON = "🏠"
