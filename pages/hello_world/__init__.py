@@ -9,6 +9,6 @@ DESCRIPTION = (
     "3. Persisting States private to a page\n"
     "4. Nesting Pages\n"
 )
-NAV = "radio"
+SIDEBAR = "radio"
 TAG = Tag.DEMO
 ICON = "👋"
