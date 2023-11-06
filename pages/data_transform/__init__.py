@@ -8,10 +8,10 @@ ICON = "📊"
 TAG = Tag.DEMO
 
 
-def main():
+def main(page):
     st.text("Put some numbers in the table and click on the button to multiply them")
 
-    state = State("df", default_value=get_base_input())
+    state = State("df", default_value=get_base_input(), key=page)
 
     with st.sidebar:
         if st.button("✖️ Multiply"):
@@ -38,8 +38,8 @@ from streamlit_superapp.state import State
 ICON = "📊"
 
 
-def main():
-    state = State("df", default_value=get_base_input())
+def main(page):
+    state = State("df", default_value=get_base_input(), key=page)
 
     with st.sidebar:
         if st.button("✖️ Multiply"):
