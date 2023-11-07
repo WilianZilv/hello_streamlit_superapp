@@ -1,2 +1,2 @@
-streamlit-superapp==1.0.0
+streamlit-superapp==1.0.7
 streamlit==1.28.1
