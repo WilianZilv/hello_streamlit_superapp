@@ -5,7 +5,6 @@ from common.tags import Tag
 from streamlit_superapp.state import State
 
 ICON = "📊"
-TAG = Tag.DEMO
 
 
 def main(page):

@@ -4,7 +4,6 @@ from streamlit_superapp import State
 
 
 NAME = "Counter"
-TAG = Tag.DEMO
 ICON = "🔢"
 
 
