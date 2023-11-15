@@ -7,7 +7,7 @@ authors = [
 ]
 dependencies = [
     "streamlit>=1.28.1",
-    "streamlit-superapp>=1.1.0",
+    "streamlit-superapp>=1.1.32",
 ]
 readme = "README.md"
 requires-python = ">= 3.8"
